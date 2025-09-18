@@ -21,7 +21,8 @@ public class Q16 {
             }
         }
 
-        if (j == 0) {               // no positive numbers at all
+        // no positive numbers at all
+        if (j == 0) {               
             System.out.println(1);
             return;
         }
