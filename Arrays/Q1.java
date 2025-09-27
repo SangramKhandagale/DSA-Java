@@ -24,6 +24,7 @@ public class Q1{
           return max;
     }
 
+    
       public static int min(int arr[]){
         int min=0;
          for(int i=0;i<arr.length;i++){
