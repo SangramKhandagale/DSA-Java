@@ -10,6 +10,7 @@ public class Q1{
        System.out.println("Largest number: "+max(arr));
        System.out.println("Smallest number: "+min(arr));
     }
+    
 
     public static int max(int arr[]){
         int max=0;
