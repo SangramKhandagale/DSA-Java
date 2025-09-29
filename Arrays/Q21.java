@@ -8,6 +8,7 @@ public class Q21{
             arr[i]=in.nextInt();
         }
       
+       
         for(int i=1;i<n-1;i++){
             if(arr[i]>arr[i-1] && arr[i]>arr[i+1]){
                 System.out.println(i);
