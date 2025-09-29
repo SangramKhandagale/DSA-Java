@@ -14,6 +14,7 @@ public class Q13{
                result=result+ch;
             }
         }
+       
         System.out.println(result);
     }
 }
