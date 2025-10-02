@@ -30,4 +30,5 @@ public class BinarySearchRecursive {
             return binarySearch(arr, mid + 1, high, key); // search right half
         }
     }
+    
 }
