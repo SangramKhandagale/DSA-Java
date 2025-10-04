@@ -20,6 +20,7 @@ public class Q28{
                 }
             }
 
+            
             if(count==k.length()){
                 System.out.println(arr[j]);
             }
