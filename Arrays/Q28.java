@@ -12,8 +12,7 @@ public class Q28{
 
         String k=in.nextLine();
         
-
-        for(int j=0;j<n;j++){
+for(int j=0;j<n;j++){
             int count=0;
             for(int i=0;i<k.length();i++){
                 if(arr[j].charAt(i)==k.charAt(i)){
