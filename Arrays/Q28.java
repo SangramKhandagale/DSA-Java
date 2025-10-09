@@ -9,8 +9,7 @@ public class Q28{
          arr[i]=in.nextLine();
         }
         
-
-        String k=in.nextLine();
+String k=in.nextLine();
         
 for(int j=0;j<n;j++){
             int count=0;
