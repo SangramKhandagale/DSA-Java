@@ -6,6 +6,7 @@ public class Q1{
         int arr[]=new int[n];
         
         for(int i=0;i<n;i++){
+            
             arr[i]=in.nextInt();
         }
        System.out.println("Largest number: "+max(arr));
