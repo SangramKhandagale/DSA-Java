@@ -14,6 +14,7 @@ public class Q1{
     }
 
     public static int max(int arr[]){
+        
         int max=0;
          for(int i=0;i<arr.length;i++){
             max=arr[i];
