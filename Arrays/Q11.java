@@ -6,6 +6,7 @@ public class Q11{
         int arr[]=new int[n];
         int a[]=new int[n];
         for(int i=0;i<n;i++){
+            
             arr[i]=in.nextInt();
         }
 
