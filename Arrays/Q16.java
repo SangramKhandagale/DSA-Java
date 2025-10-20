@@ -26,6 +26,7 @@ public class Q16 {
             System.out.println(1);
             return;
         }
+        
 
         // Arrange in ascending order (only first j elements)
         for (int i = 0; i < j - 1; i++) {
