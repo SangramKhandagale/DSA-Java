@@ -14,6 +14,7 @@ public static void main(String[] args) {
                 int temp=arr[i];
                 arr[i]=arr[j];
                 arr[j]=temp;
+             
             }
         }
     }
