@@ -21,6 +21,7 @@ public class Q24 {
                 found = mid;
                 break; // ✅ stop searching once found
             } else if (arr[mid] < key) {
+      
                 left = mid + 1;
             } else {
                 right = mid - 1;
