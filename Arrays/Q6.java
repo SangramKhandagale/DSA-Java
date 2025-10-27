@@ -7,7 +7,8 @@ public static void main(String[] args) {
     for(int i=0;i<n;i++){
        arr[i]=in.nextInt();
     }
-   
+
+    
     insertionSort(arr);
 
     for(int i=0;i<n;i++){
