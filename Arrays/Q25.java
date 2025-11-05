@@ -17,6 +17,7 @@ public class Q25{
            if(arr[i]==target){
             found=i;
            }
+            
         }
 
        if(found==0){
