@@ -8,6 +8,7 @@ public class Q8{
               arr[i]=in.nextInt();
         }
 
+        
         int mid=0,low=0,high=n-1;
         while(mid<=high){
             if(arr[mid]==0){
