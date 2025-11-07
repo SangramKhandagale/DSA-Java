@@ -7,6 +7,7 @@ public class Q9{
         for(int i=0;i<n-1;i++){
             arr[i]=in.nextInt();
         }
+        
 
         int expected=(n*(n+1))/2;
          int result=0;
