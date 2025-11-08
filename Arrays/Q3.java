@@ -21,6 +21,7 @@ public class Q3{
          }else{
             System.out.println(arr[1]);
          }
+
         
     }
 }
