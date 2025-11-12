@@ -15,6 +15,7 @@ public class Q12{
         int target=in.nextInt();
 
         for(int x:arr){
+         
             int complement=target-x;
             if(seen.contains(complement)){
                 pairs.add(new int[]{x,complement});
