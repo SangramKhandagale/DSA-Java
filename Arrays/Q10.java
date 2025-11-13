@@ -9,6 +9,7 @@ public class Q10 {
         for (int i = 0; i < n; i++) {
             arr[i] = in.nextInt();
         }
+        
 
         boolean result = false;
         int duplicate = 0;
