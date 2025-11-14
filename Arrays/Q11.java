@@ -11,6 +11,7 @@ public class Q11{
         }
 
         Set<Integer> seen=new HashSet<>();
+        
         Set<Integer> duplicates=new HashSet<>();
 
 for(int num:arr){
