@@ -6,6 +6,7 @@ public class Q13{
         int n=in.nextInt();
         System.out.println("Enter size of array 2:");
          int m=in.nextInt();
+        
         int arr1[]=new int[n];
         System.out.println("Enter array 1:");
         for(int i=0;i<n;i++){
