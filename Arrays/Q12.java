@@ -18,6 +18,7 @@ public class Q12{
          
             int complement=target-x;
             if(seen.contains(complement)){
+                
                 pairs.add(new int[]{x,complement});
             }
             seen.add(x);
