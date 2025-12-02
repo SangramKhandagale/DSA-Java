@@ -1,3 +1,4 @@
+
 import java.util.*;
 
 public class Q18{
@@ -13,6 +14,7 @@ public class Q18{
         }
         return new int[]{}; // never reached if solution guaranteed
     }
+    
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

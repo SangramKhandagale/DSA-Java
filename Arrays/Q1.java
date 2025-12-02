@@ -1,3 +1,5 @@
+
+
 import java.util.*;
 public class Q1{
     public static void main(String[] args) {
@@ -6,14 +8,15 @@ public class Q1{
         int arr[]=new int[n];
         
         for(int i=0;i<n;i++){
+            
             arr[i]=in.nextInt();
         }
        System.out.println("Largest number: "+max(arr));
        System.out.println("Smallest number: "+min(arr));
     }
-    
 
     public static int max(int arr[]){
+        
         int max=0;
          for(int i=0;i<arr.length;i++){
             max=arr[i];

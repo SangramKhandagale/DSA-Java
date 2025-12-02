@@ -1,3 +1,4 @@
+
 import java.util.*;
 public class Q15{
     public static void main(String[] args) {
@@ -9,6 +10,7 @@ public class Q15{
         for(int i=0;i<n;i++){
             arr[i]=in.nextInt();
         }
+        
 
         System.out.println("Enter rotations:");
         int rotate=in.nextInt();

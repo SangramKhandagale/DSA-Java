@@ -17,6 +17,7 @@ public class Q20{
                 }
             }
         }
+        
 
         int k=in.nextInt();
 
