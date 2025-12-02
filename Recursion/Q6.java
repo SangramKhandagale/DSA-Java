@@ -1,4 +1,4 @@
-package Revision;
+package Recursion;
 import java.util.*;
 
 public class Q6 {

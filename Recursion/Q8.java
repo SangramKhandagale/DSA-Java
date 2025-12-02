@@ -1,4 +1,4 @@
-package Revision;
+package Recursion;
 import java.util.*;
 public class Q8 {
     public static void main(String[] args) {
@@ -7,14 +7,11 @@ public class Q8 {
         fibSeries(n);
     }
 
-    // Function to print Fibonacci series up to n terms
     public static void fibSeries(int n) {
         for (int i = 0; i < n; i++) {
             System.out.print(fibb(i) + " ");
         }
     }
-
-    // Function returns nth Fibonacci number
     public static int fibb(int n) {
         if (n == 0)
             return 0;
