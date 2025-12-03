@@ -15,7 +15,7 @@ public class Q8{
         int target=in.nextInt();
 
         HashMap<Integer,Integer> map=new HashMap<>();
-        HashSet<Integer> set=new HashSet<>();
+
 
         for(int i=0;i<n;i++){
             map.put(arr[i],i);
@@ -30,6 +30,6 @@ public class Q8{
     }
         }
 
-        System.out.println(set);
+    
     }
 }
