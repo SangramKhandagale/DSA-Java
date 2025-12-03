@@ -1,7 +1,7 @@
 package Hashing;
 import java.util.*;
 import java.util.Map.Entry;
-public class Q1 {
+public class Q5{
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
     int n=in.nextInt();
