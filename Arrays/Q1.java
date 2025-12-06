@@ -34,6 +34,7 @@ public class Q1{
         int min=0;
          for(int i=0;i<arr.length;i++){
             min=arr[i];
+             
             for(int j=0;j<arr.length-1;j++){
                 if(arr[i]>arr[j]){
                     min=arr[j];
