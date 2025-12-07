@@ -1,3 +1,4 @@
+package Hashing.Medium;
 import java.util.*;
 
 public class Q2 {
