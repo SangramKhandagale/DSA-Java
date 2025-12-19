@@ -1,6 +1,7 @@
+package Hashing.Medium;
 import java.util.*;
 
-public class MinWindow_Noob {
+public class Q7{
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         String s = in.nextLine();
