@@ -1,4 +1,4 @@
-package Hashing;
+package Hashing.Easy;
 import java.util.*;
 public class Q8{
     public static void main(String args[]){
