@@ -7,8 +7,7 @@ public class Q13{
         System.out.println(result);
 
     }
-
-    public static boolean result(int n){
+  public static boolean result(int n){
         boolean result=false;
         if(n>0 && (n &(n-1))==0){
             result=true;
