@@ -15,5 +15,4 @@ public class Q13{
         }
         return result;
     }
-    
 }
