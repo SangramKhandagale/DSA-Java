@@ -23,7 +23,7 @@ public class Q20{
             }
             }
         }
-
+        
         System.out.println(count);
     }
 }
