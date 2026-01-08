@@ -9,7 +9,7 @@ public class Q19 {
             arr[i] = in.nextInt();
         }
 
-        // Step 1: Count frequency
+    // Step 1: Count frequency
         HashMap<Integer, Integer> map = new HashMap<>();
         for (int num : arr) {
             map.put(num, map.getOrDefault(num, 0) + 1);
