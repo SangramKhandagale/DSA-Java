@@ -1,7 +1,6 @@
 package Stacks;
 import java.util.*;
 import java.util.Stack;
-
 public class Q2{
 
     public static boolean isValid(String str){
