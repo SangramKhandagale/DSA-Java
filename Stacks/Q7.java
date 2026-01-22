@@ -10,7 +10,6 @@ public class Q7 {
             }
             sb.append(c);
         }
-// Remove remaining digits if k > 0
         while (k > 0 && sb.length() > 0) {
             sb.deleteCharAt(sb.length() - 1);
             k--;
