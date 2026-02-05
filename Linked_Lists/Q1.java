@@ -121,6 +121,24 @@ public class Q1{
             temp=temp.next;
         }
     }
+
+    void reverse() {
+
+    Node prev=null;
+    Node next=null;
+    Node curr=head;
+
+    while(curr!=null){
+        
+        next=curr.next;
+        curr.next=prev;
+        prev=curr;
+        curr=next;
+    }
+
+    head=prev;
+}
+
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
 
