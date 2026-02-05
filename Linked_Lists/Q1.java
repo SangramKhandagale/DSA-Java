@@ -89,6 +89,25 @@ public class Q1{
 
     }
 
+    void deleteAtPosition(int pos){
+        if(head==null){
+            return;
+        }
+
+        if(pos==1){
+            head=head.next;
+            return;
+        }
+
+        Node temp=head;
+
+        for(int i=0;i<pos-1;i++){
+            temp=temp.next;
+        }
+
+        temp.next=temp.next.next;
+    }
+
     void display(){
         if(head==null){
             System.out.println("List is Empty");
