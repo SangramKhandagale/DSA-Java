@@ -39,6 +39,25 @@ public class Q1{
         temp.next=newnode;
     }
 
+    void insertAtPosition(int data,int pos){
+        Node newNode=new Node(data);
+
+        if(pos==1){
+            newNode.next=head;
+            head=newNode;
+            return;
+        }
+
+        Node temp=head;
+
+        for(int i=0;i<pos-1;i++){
+            temp=temp.next;
+        }
+
+        newNode.next=temp.next;
+        temp.next=newNode;
+    }
+
     void deleteFromBeginning(){
         if(head==null){
             System.out.println("List is Empty");
