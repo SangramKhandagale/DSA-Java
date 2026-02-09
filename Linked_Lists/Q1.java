@@ -6,8 +6,8 @@ class Node{
     Node next;
 
     Node(int data){
-        this.data=data;
-     this.next=null;
+    this.data=data;
+    this.next=null;
     }
 }
 
