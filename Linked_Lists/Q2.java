@@ -137,6 +137,39 @@ public class Q2{
 
             temp.next=newNode;
         }
+
+        void deleteAtPosition(int pos){
+
+    if(head == null){
+        System.out.println("List Empty");
+        return;
+    }
+
+    if(pos == 1){
+        deleteFromBeginning();
+        return;
+    }
+
+    Node temp = head;
+
+    for(int i=1; i<pos && temp!=null; i++){
+        temp = temp.next;
+    }
+
+    if(temp == null){
+        System.out.println("Invalid Position");
+        return;
+    }
+
+    if(temp.next != null){
+        temp.next.prev = temp.prev;
+    }
+
+    if(temp.prev != null){
+        temp.prev.next = temp.next;
+    }
+}
+
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
         Q2 list=new Q2();
