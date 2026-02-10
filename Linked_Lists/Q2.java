@@ -170,6 +170,29 @@ public class Q2{
     }
 }
 
+void search(int key){
+    if(head==null){
+        System.out.println("List is Empty");
+    return;
+    }
+    
+    int pos=1;
+
+    Node temp=head;
+
+    while(temp!=null){
+        if(temp.data==key){
+            System.out.println("Key found at pos:"+pos);
+            return;
+        }
+
+        temp=temp.next;
+        pos++;
+    }
+
+    System.out.println("Not Found");
+}
+
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
         Q2 list=new Q2();
