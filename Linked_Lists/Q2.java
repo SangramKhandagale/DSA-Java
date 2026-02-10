@@ -62,7 +62,7 @@ public class Q2{
 
 }
 
- void deleteFromEnd(){
+ void deleteFromEnd1(){
             if(head==null){
                 System.out.println("List is Empty");
                 return;
@@ -113,6 +113,30 @@ public class Q2{
                 temp=temp.prev;
             }
         }
+
+        void insertAtpos(int pos,int val3){
+            Node newNode=new Node(val3);
+
+            if(pos==1){
+                insertAtBeginning(val3);
+                return;
+            }
+
+            Node temp=head;
+
+            for(int i=0;i<pos-1;i++){
+                temp=temp.next;
+            }
+
+            newNode.next=temp.next;
+            newNode.prev=temp;
+
+            if(temp.next!=null){
+                temp.next.prev=newNode;
+            }
+
+            temp.next=newNode;
+        }
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
         Q2 list=new Q2();
@@ -140,7 +164,7 @@ public class Q2{
                         break;
 
                         case 4:
-                            list.deleteFromEnd();
+                            list.deleteFromEnd1();
                             break;
 
                             case 5:
