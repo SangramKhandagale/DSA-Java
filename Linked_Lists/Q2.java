@@ -193,6 +193,24 @@ void search(int key){
     System.out.println("Not Found");
 }
 
+void reverse(){
+    Node temp=null;
+    Node current=head;
+
+    while(current!=null){
+        temp=current.prev;
+        current.prev=current.next;
+        current.next=temp;
+
+        current=current.prev;
+    }
+
+    if(temp!=null){
+        head=temp.prev;
+    }
+
+    System.out.println("List Reversed");
+}
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
         Q2 list=new Q2();
