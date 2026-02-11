@@ -204,8 +204,7 @@ void reverse(){
 
         current=current.prev;
     }
-
-    if(temp!=null){
+ if(temp!=null){
         head=temp.prev;
     }
 
