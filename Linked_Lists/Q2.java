@@ -13,7 +13,6 @@ class Node{
     }
 }
 
-
 public class Q2{
 
     Node head;
