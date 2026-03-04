@@ -3,6 +3,7 @@ import java.util.*;
 
 class Node{
     int data;
+    
     Node prev;
     Node next;
 
