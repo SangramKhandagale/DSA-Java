@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 public class Q17 {
     public static int findMajorityElement(int[] arr) {
