@@ -12,7 +12,6 @@ class Node{
         this.next=null;
     }
 }
-
 public class Q2{
 
     Node head;
