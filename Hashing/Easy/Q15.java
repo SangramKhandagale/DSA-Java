@@ -1,3 +1,4 @@
+
 package Hashing.Easy;
 import java.util.*;
 public class Q15{
