@@ -1,4 +1,5 @@
 
+
 package Hashing.Easy;
 import java.util.*;
 import java.util.Map.Entry;
