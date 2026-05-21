@@ -10,7 +10,6 @@ public class Q31{
             sum=sum+r;
             sq=sq/10;
         }
-        
 
         if(sum==n){
             System.out.println("Yes");
