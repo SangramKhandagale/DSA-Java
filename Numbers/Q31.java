@@ -17,4 +17,5 @@ public class Q31{
             System.out.println("no");
         }
     }
+    
 }
