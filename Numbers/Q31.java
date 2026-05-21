@@ -1,5 +1,6 @@
 import java.util.*;
 public class Q31{
+    
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
         int n=in.nextInt();
@@ -17,5 +18,5 @@ public class Q31{
             System.out.println("no");
         }
     }
-    
+
 }
