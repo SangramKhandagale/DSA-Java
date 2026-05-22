@@ -20,6 +20,7 @@ int count1=0;
 }
         }
 
+        
         if(count==0 && count1==0){
             if(n!=num){
                 System.out.println("Emirp");
