@@ -14,7 +14,6 @@ int count1=0;
                 count++;
 }
         }
-
          for(int i=2;i<n;i++){
             if(num%i==0){
                 count1++;
