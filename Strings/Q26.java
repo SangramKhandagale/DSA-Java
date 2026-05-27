@@ -19,6 +19,7 @@ public class Q26 {
             }
         }
 
+        
         int j = 0;
         int k = new_str.length() - 1;
 
