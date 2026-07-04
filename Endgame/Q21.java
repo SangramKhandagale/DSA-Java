@@ -1,3 +1,4 @@
+package Endgame;
 import java.util.*;
 import java.util.Map.Entry;
 public class Q21{
