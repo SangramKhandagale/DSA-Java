@@ -1,6 +1,7 @@
+package Endgame;
 import java.util.*;
 
-public class Main {
+public class Q35{
 
     public static void Q35(String[] args) {
         Scanner in = new Scanner(System.in);
