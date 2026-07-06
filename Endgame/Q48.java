@@ -1,6 +1,6 @@
 package Endgame;
 import java.util.*;
-public class Q58{
+public class Q48{
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
         int n=in.nextInt();
