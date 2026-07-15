@@ -1,0 +1,30 @@
+package Endgame;
+import java.util.*;
+public class Q64{
+    public static void main(String[] args) {
+        Scanner in=new Scanner(System.in);
+        int n=in.nextInt();
+
+        int arr[]=new int[n];
+
+        for(int i=0;i<n;i++){
+            arr[i]=in.nextInt();
+        }
+
+        
+
+        HashMap<Integer,Integer> map=new HashMap<>();
+
+        for(int i=0;i<n;i++){
+            map.put(arr[i],map.getOrDefault(arr[i], 0)+1);
+        }
+
+        for(int i=0;i<n;i++){
+            if(map.get(arr[i])==1){
+                System.out.println(arr[i]);
+                break;
+            }
+        }
+    
+    }
+}
