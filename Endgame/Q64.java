@@ -11,7 +11,6 @@ public class Q64{
             arr[i]=in.nextInt();
         }
 
-        
 
         HashMap<Integer,Integer> map=new HashMap<>();
 
