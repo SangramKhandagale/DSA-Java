@@ -1,3 +1,4 @@
+package Endgame;
 import java.util.*;
 
 public class Q65 {
