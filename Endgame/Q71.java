@@ -16,6 +16,7 @@ public class Q71{
         for(int i=0;i<m;i++){
             st.pop();
         }
+Queue<Integer> q=new LinkedList<Integer>();
 
     if(st.isEmpty()){
         System.out.println(true+" "+0+" "+0);
